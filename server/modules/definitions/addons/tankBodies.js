@@ -4,7 +4,7 @@ require('./generics.js');
 const g = require('../gunvals.js');
 
 // HAHA this is annoying
-return console.log("[tankBodies.js] | This addon is disabled by default! Please comment out or remove this line (line 6) to enable the addon.");
+return console.log("[tankBodies.js] | This addon is disabled by default! Please comment out or remove this line (line 7) to enable the addon.");
 
 // create tank
 Class.tankTreads = {
