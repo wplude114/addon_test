@@ -3,7 +3,7 @@ const { base, statnames, dfltskl, smshskl } = require('../constants.js');
 require('./generics.js');
 const g = require('../gunvals.js');
 
-console.log("[tankBodies.js] | ");
+// HAHA this is annoying
 return console.log("[tankBodies.js] | This addon is disabled by default! Please comment out or remove this line (line 6) to enable the addon.");
 
 // create tank
@@ -28,6 +28,4 @@ Class.tankBody = {
             TYPE: "tankTreads",
         }],
 }
-
-// we could just add the body to genericTank but that makes turrets have the body so we do this instead
-// note: make SPAWN_CLASS of config.js ["basic", "tankBody"]
+// note: make this actually work :)
